@@ -23,7 +23,7 @@ public class LoginTests extends TestBase {
         new LoginPage(app.driver)
                 .clickIconAuthorization()
                 .clickLoginButton()
-                .enterPersonalData("fgg@jhfsd.com", "Asd123Lkj@") // Валидные данные - лучше использовать конфигурацию
+                .enterPersonalData("fgg@jhfsd.com", "Asd123Lkj@")
                 .clickSubmitLogin()
                 .verifyUserIsLoggedIn();
     }

@@ -10,28 +10,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/src/test/resources/invalidEmail.csv">
+        <entry key="/src/test/resources/RegistrationNegative.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/src/test/resources/invalidFirstName.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/src/test/resources/invalidPassword.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/src/test/resources/invalidTNumber.csv">
+        <entry key="/src/test/resources/RegistrationPositive.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
