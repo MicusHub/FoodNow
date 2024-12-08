@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Явно указана версия Ubuntu
 
     steps:
       # Checkout репозитория
@@ -18,8 +18,8 @@ jobs:
       - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
+          distribution: 'temurin'  # Обновлено на поддерживаемый дистрибутив
           java-version: '17'
-          distribution: 'adoptopenjdk'  # Добавлен параметр distribution
 
       # Установка и настройка WebDriver
       - name: Set up WebDriver
