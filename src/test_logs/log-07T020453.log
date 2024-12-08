@@ -1,0 +1,16 @@
+02:04:54.216 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+02:04:54.473 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+02:04:54.486 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+02:04:55.945 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+02:04:55.959 [main] INFO  foodnow.core.TestBase -- Test loginNegativeTestWithAssert started
+02:04:55.959 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+02:04:56.048 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (776d1565650f88d40ee8d7d17617fadd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+02:04:56.097 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+02:04:56.157 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (776d1565650f88d40ee8d7d17617fadd)] -> xpath: //input[@id='email-id']]] is pressed
+02:04:56.272 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'invalidEmail@gmail.com' into element: [[ChromeDriver: chrome on mac (776d1565650f88d40ee8d7d17617fadd)] -> xpath: //input[@id='email-id']]
+02:04:56.310 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (776d1565650f88d40ee8d7d17617fadd)] -> xpath: //input[@id='password-id']]] is pressed
+02:04:56.361 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'InvalidPassword' into element: [[ChromeDriver: chrome on mac (776d1565650f88d40ee8d7d17617fadd)] -> xpath: //input[@id='password-id']]
+02:04:56.400 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (776d1565650f88d40ee8d7d17617fadd)] -> xpath: //button[text()='Login']]] is pressed
+02:04:56.973 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+02:04:56.973 [main] INFO  foodnow.core.TestBase -- Test PASSED: loginNegativeTestWithAssert
+02:04:56.976 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

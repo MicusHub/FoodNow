@@ -1,0 +1,16 @@
+13:11:08.332 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+13:11:08.571 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+13:11:08.584 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+13:11:09.971 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+13:11:09.987 [main] INFO  foodnow.core.TestBase -- Test addProductPositiveTest started
+13:11:10.070 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:11:10.125 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+13:11:10.166 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> id: email-id]] is pressed
+13:11:10.295 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'addproduct@gmail.com' into element: [[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> id: email-id]
+13:11:10.342 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> id: password-id]] is pressed
+13:11:10.387 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'addproduct@gmail.com' into element: [[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> id: password-id]
+13:11:10.434 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> xpath: //button[text()='Login']]] is pressed
+13:11:10.486 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+13:11:10.549 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (39bc0d9b40b36ef5657d012ec8af58a1)] -> xpath: //button[contains(@class, 'MuiButtonBase-root') and text()='Meat']]] is pressed
+13:11:10.994 [main] ERROR foodnow.core.TestBase -- Test FAILED: addProductPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733573470566.png
+13:11:10.997 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

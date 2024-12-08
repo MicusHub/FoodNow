@@ -1,0 +1,14 @@
+13:37:10.436 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+13:37:10.675 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+13:37:10.691 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+13:37:12.301 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+13:37:12.315 [main] INFO  foodnow.core.TestBase -- Test addProductPositiveTest started
+13:37:12.377 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (9761c38bb01100688af7d38440424b1b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:37:12.425 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+13:37:12.486 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (9761c38bb01100688af7d38440424b1b)] -> id: email-id]] is pressed
+13:37:12.602 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'addproduct@gmail.com' into element: [[ChromeDriver: chrome on mac (9761c38bb01100688af7d38440424b1b)] -> id: email-id]
+13:37:12.640 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (9761c38bb01100688af7d38440424b1b)] -> id: password-id]] is pressed
+13:37:12.686 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'addproduct@gmail.com' into element: [[ChromeDriver: chrome on mac (9761c38bb01100688af7d38440424b1b)] -> id: password-id]
+13:37:12.723 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (9761c38bb01100688af7d38440424b1b)] -> xpath: //button[text()='Login']]] is pressed
+13:37:12.858 [main] ERROR foodnow.core.TestBase -- Test FAILED: addProductPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733575032742.png
+13:37:12.860 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

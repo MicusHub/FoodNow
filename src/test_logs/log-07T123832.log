@@ -1,0 +1,869 @@
+12:38:32.988 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+12:38:33.244 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+12:38:33.257 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+12:38:35.016 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+12:38:35.034 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:35.036 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:35.174 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:35.234 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:35.235 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=An, email=dr@tr.de, password=wtA123r@, phone=+491765555555555
+12:38:35.297 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:35.400 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:35.429 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:35.465 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:35.495 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:35.532 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:35.575 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:35.610 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:35.648 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:35.685 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+491765555555555' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:35.751 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:35.870 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571515761.png
+12:38:35.983 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571515871.png
+12:38:35.984 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:35.985 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:36.032 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:36.088 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:36.089 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=Anna-Maria, email=drs@sub.try.de, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=+091759875421
+12:38:36.133 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:36.171 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:36.204 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:36.246 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:36.282 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:36.328 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:36.373 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:36.463 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:36.502 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:36.545 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:36.605 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:36.716 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571516609.png
+12:38:36.833 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571516716.png
+12:38:36.834 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:36.835 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:36.881 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:36.932 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:36.932 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=Aggggggggggggggggggggggg, email=Drs@Try.de, password=wtA123rKd@, phone=41759875421
+12:38:36.985 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:37.021 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:37.054 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:37.100 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:37.135 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:37.171 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:37.207 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:37.244 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:37.287 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:37.333 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:37.388 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:37.497 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571517391.png
+12:38:37.616 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571517498.png
+12:38:37.617 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:37.617 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:37.665 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:37.714 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:37.715 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=McAnn, email=d.rs@try.de, password=wtA123r&@, phone=4917598754
+12:38:37.758 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:37.798 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:37.832 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:37.867 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:37.902 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:37.939 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:37.976 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:38.011 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:38.051 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:38.092 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:38.135 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:38.266 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571518140.png
+12:38:38.381 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571518266.png
+12:38:38.382 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:38.382 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:38.431 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:38.480 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:38.480 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=A'nn, email=drs12@try.de, password=wtA123r@, phone=+49175987542108
+12:38:38.525 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:38.566 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:38.600 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:38.637 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:38.672 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:38.710 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:38.747 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:38.782 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:38.823 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:38.867 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:38.921 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:39.031 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571518924.png
+12:38:39.151 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571519031.png
+12:38:39.152 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:39.152 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:39.204 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:39.252 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:39.253 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=McAnn, email=drs@sub-try.de, password=wtA123rKd@, phone=+49175987542108
+12:38:39.294 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:39.332 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:39.364 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:39.398 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:39.432 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:39.472 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub-try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:39.509 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:39.552 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:39.594 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:39.636 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:39.689 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:39.798 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571519691.png
+12:38:39.915 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571519798.png
+12:38:39.915 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:39.916 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:39.964 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:40.020 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:40.020 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=A'nn, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=wtA123r&@, phone=+49175987542108
+12:38:40.067 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:40.133 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:40.167 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:40.201 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:40.236 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:40.404 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:40.436 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:40.469 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:40.505 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:40.545 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:40.595 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:40.720 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571520598.png
+12:38:40.832 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571520721.png
+12:38:40.833 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:40.833 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:40.897 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:40.944 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:40.945 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=Anna-Maria, email=Drs@Try.de, password=wtA123r&@, phone=+49175987542108
+12:38:41.004 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:41.052 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:41.088 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:41.128 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:41.159 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:41.196 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:41.236 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:41.275 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:41.318 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:41.369 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:41.432 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:41.549 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571521437.png
+12:38:41.665 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571521550.png
+12:38:41.665 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:41.666 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:41.730 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:41.778 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:41.779 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=Aggggggggggggggggggggggg, email=d.rs@try.de, password=wtA123r@, phone=+49175987542108
+12:38:41.821 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:41.866 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:41.895 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:41.939 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:41.981 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:42.026 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:42.068 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:42.110 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:42.168 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:42.225 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:42.298 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:42.415 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571522302.png
+12:38:42.516 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571522415.png
+12:38:42.517 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:42.517 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:42.566 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:42.624 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:42.625 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=McAnn, email=drs12@try.de, password=wtA123rKd@, phone=+49175987542108
+12:38:42.677 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:42.725 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:42.766 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:42.813 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:42.848 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:42.901 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:42.934 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:42.979 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:43.025 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:43.071 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:43.136 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:43.253 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571523139.png
+12:38:43.369 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571523253.png
+12:38:43.370 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:43.370 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:43.424 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:43.470 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:43.470 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=McAnn, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=wtA123r@, phone=+091759875421
+12:38:43.521 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:43.566 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:43.602 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:43.643 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:43.677 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:43.837 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:43.871 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:43.903 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:43.940 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:43.983 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:44.035 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:44.153 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571524040.png
+12:38:44.246 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571524153.png
+12:38:44.247 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:44.250 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:44.296 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:44.349 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:44.350 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=A'nn, email=dr@tr.de, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=41759875421
+12:38:44.395 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:44.438 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:44.477 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:44.524 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:44.564 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:44.605 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:44.644 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:44.730 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:44.773 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:44.822 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:44.886 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:44.997 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571524889.png
+12:38:45.098 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571524997.png
+12:38:45.099 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:45.099 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:45.155 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:45.206 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:45.207 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=An, email=drs@sub.try.de, password=wtA123rKd@, phone=4917598754
+12:38:45.257 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:45.315 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:45.351 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:45.387 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:45.425 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:45.467 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:45.506 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:45.547 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:45.597 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:45.637 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:45.689 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:45.796 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571525691.png
+12:38:45.898 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571525797.png
+12:38:45.899 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:45.899 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:45.965 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:46.024 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:46.025 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=Aggggggggggggggggggggggg, email=drs12@try.de, password=wtA123r&@, phone=+091759875421
+12:38:46.082 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:46.140 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:46.180 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:46.233 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:46.274 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:46.323 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:46.366 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:46.406 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:46.453 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:46.507 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:46.585 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:46.705 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571526588.png
+12:38:46.811 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571526706.png
+12:38:46.812 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:46.815 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:46.872 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:46.919 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:46.919 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=McAnn, email=drs@sub-try.de, password=wtA123r@, phone=41759875421
+12:38:46.974 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:47.035 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:47.070 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:47.114 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:47.149 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:47.203 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub-try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:47.240 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:47.281 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:47.334 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:47.375 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:47.437 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:47.551 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571527440.png
+12:38:47.648 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571527552.png
+12:38:47.649 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:47.649 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:47.696 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:47.748 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:47.749 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=A'nn, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=4917598754
+12:38:47.793 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:47.846 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:47.880 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:47.914 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:47.952 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:48.110 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:48.142 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:48.218 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:48.254 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:48.290 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:48.340 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:48.448 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571528343.png
+12:38:48.563 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571528449.png
+12:38:48.563 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:48.563 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:48.611 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:48.661 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:48.661 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=McAnn, email=dr@tr.de, password=wtA123rKd@, phone=+49175987542108
+12:38:48.707 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:48.755 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:48.789 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:48.825 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:48.871 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:48.924 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:48.975 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:49.025 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:49.069 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:49.117 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:49.172 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:49.282 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571529175.png
+12:38:49.399 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571529283.png
+12:38:49.400 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:49.400 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:49.457 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:49.508 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:49.508 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=A'nn, email=drs@sub.try.de, password=wtA123r&@, phone=+49175987542108
+12:38:49.555 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:49.612 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:49.652 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:49.691 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:49.723 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:49.762 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:49.795 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:49.831 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:49.885 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:49.935 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:50.002 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:50.116 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571530006.png
+12:38:50.232 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571530116.png
+12:38:50.232 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:50.233 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:50.283 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:50.345 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:50.346 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=An, email=Drs@Try.de, password=wtA123r@, phone=+49175987542108
+12:38:50.390 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:50.439 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:50.473 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:50.523 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:50.561 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:50.605 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:50.646 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:50.686 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:50.737 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:50.796 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:50.865 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:50.984 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571530869.png
+12:38:51.105 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571530985.png
+12:38:51.105 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:51.105 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:51.158 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:51.212 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:51.213 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Aggggggggggggggggggggggg, lastName=Anna-Maria, email=d.rs@try.de, password=wtA123rKd@, phone=+49175987542108
+12:38:51.271 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:51.326 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:51.365 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:51.408 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:51.443 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:51.480 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:51.520 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:51.554 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:51.603 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:51.648 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:51.714 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:51.833 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571531719.png
+12:38:51.933 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571531834.png
+12:38:51.934 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:51.934 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:51.990 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:52.054 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:52.054 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=McAnn, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=wtA123rKd@, phone=+49175987542108
+12:38:52.103 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:52.150 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:52.188 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:52.225 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:52.266 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:52.438 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:52.469 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:52.498 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:52.534 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:52.576 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:52.620 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:52.736 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571532622.png
+12:38:52.847 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571532737.png
+12:38:52.847 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:52.848 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:52.894 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:52.945 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:52.945 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=A'nn, email=dr@tr.de, password=wtA123r&@, phone=+49175987542108
+12:38:52.993 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:53.032 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:53.069 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:53.102 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:53.136 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:53.173 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:53.207 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:53.244 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:53.284 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:53.326 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:53.373 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:53.498 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571533376.png
+12:38:53.612 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571533498.png
+12:38:53.612 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:53.612 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:53.660 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:53.702 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:53.702 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=McAnn, email=drs@sub.try.de, password=wtA123r@, phone=+49175987542108
+12:38:53.746 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:53.782 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:53.818 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:53.852 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:53.892 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:53.939 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:53.978 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:54.016 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:54.063 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:54.105 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:54.160 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:54.266 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571534164.png
+12:38:54.381 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571534267.png
+12:38:54.381 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:54.381 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:54.427 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:54.466 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:54.466 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=A'nn, email=Drs@Try.de, password=wtA123rKd@, phone=+091759875421
+12:38:54.519 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:54.562 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:54.606 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:54.643 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:54.682 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:54.729 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:54.765 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:54.803 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:54.851 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:54.895 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:54.954 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:55.062 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571534957.png
+12:38:55.144 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571535062.png
+12:38:55.144 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:55.144 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:55.188 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:55.245 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:55.246 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=An, email=d.rs@try.de, password=wtA123r&@, phone=41759875421
+12:38:55.289 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:55.336 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:55.376 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:55.415 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:55.459 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:55.504 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:55.545 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:55.585 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:55.636 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:55.687 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:55.749 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:55.869 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571535753.png
+12:38:55.988 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571535869.png
+12:38:55.988 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:55.989 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:56.039 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:56.090 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:56.090 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=Anna-Maria, email=drs12@try.de, password=wtA123r@, phone=4917598754
+12:38:56.136 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:56.177 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:56.211 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:56.253 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:56.294 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:56.333 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:56.375 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:56.409 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:56.467 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:56.514 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:56.558 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:56.685 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571536570.png
+12:38:56.799 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571536685.png
+12:38:56.799 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:56.800 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:56.852 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:56.908 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:56.909 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=McAnn, lastName=Aggggggggggggggggggggggg, email=drs@sub-try.de, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=+49175987542108
+12:38:56.961 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:57.005 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:57.043 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:57.085 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:57.120 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:57.162 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub-try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:57.204 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:57.282 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:57.336 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:57.380 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:57.424 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:57.545 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571537437.png
+12:38:57.628 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571537546.png
+12:38:57.628 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:57.628 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:57.682 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:57.737 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:57.738 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=A'nn, email=drs@sub.try.de, password=wtA123rKd@, phone=41759875421
+12:38:57.784 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:57.820 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:57.855 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:57.891 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:57.927 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:57.971 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:58.008 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:58.042 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:58.085 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:58.127 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:58.170 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:58.298 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571538173.png
+12:38:58.412 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571538298.png
+12:38:58.412 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:58.412 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:58.458 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:58.504 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:58.504 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=McAnn, email=Drs@Try.de, password=wtA123r&@, phone=4917598754
+12:38:58.551 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:58.586 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:58.619 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:58.654 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:58.689 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:58.724 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:58.762 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:58.794 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:58.835 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:58.874 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:58.924 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:59.031 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571538930.png
+12:38:59.131 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571539031.png
+12:38:59.131 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:59.131 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:59.173 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:59.219 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:59.219 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=A'nn, email=d.rs@try.de, password=wtA123r@, phone=+49175987542108
+12:38:59.260 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:38:59.299 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:38:59.333 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:38:59.365 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:38:59.399 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:38:59.436 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:38:59.471 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:38:59.504 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:38:59.544 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:38:59.586 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:38:59.633 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:38:59.747 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571539636.png
+12:38:59.848 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571539747.png
+12:38:59.848 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:38:59.848 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:38:59.891 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:38:59.933 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:38:59.934 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=An, email=drs12@try.de, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=+49175987542108
+12:38:59.973 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:00.011 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:00.043 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:00.074 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:00.120 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:00.159 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:00.195 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:00.270 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:00.309 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:00.349 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:00.400 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:00.515 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571540403.png
+12:39:00.632 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571540515.png
+12:39:00.632 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:00.632 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:00.676 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:00.719 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:00.720 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=Anna-Maria, email=drs@sub-try.de, password=wtA123rKd@, phone=+49175987542108
+12:39:00.767 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:00.803 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:00.835 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:00.871 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:00.907 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:00.948 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub-try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:00.989 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:01.026 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:01.067 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:01.107 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:01.156 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:01.264 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571541159.png
+12:39:01.383 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571541264.png
+12:39:01.383 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:01.383 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:01.432 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:01.478 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:01.479 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=Aggggggggggggggggggggggg, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=wtA123r&@, phone=+49175987542108
+12:39:01.517 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:01.553 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:01.588 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:01.631 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:01.663 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:01.820 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:01.853 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:01.882 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:01.918 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:01.959 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:02.013 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:02.131 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571542015.png
+12:39:02.248 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571542131.png
+12:39:02.248 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:02.249 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:02.299 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:02.354 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:02.354 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=A'nn, lastName=McAnn, email=dr@tr.de, password=wtA123r@, phone=+091759875421
+12:39:02.402 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:02.450 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:02.489 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:02.530 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:02.568 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:02.608 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:02.641 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:02.673 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:02.716 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:02.767 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:02.829 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:02.948 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571542832.png
+12:39:03.046 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571542949.png
+12:39:03.046 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:03.046 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:03.101 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:03.149 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:03.150 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=McAnn, email=d.rs@try.de, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=+49175987542108
+12:39:03.202 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:03.253 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:03.288 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:03.324 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:03.356 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:03.404 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:03.443 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:03.532 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:03.586 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:03.637 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:03.702 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:03.820 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571543705.png
+12:39:03.941 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571543821.png
+12:39:03.941 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:03.941 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:04.019 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:04.107 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:04.107 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=A'nn, email=drs12@try.de, password=wtA123rKd@, phone=+49175987542108
+12:39:04.170 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:04.223 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:04.268 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:04.309 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:04.347 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:04.391 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:04.431 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:04.471 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:04.518 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:04.571 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:04.629 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:04.752 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571544633.png
+12:39:04.868 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571544753.png
+12:39:04.869 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:04.870 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:04.921 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:04.972 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:04.973 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=An, email=drs@sub-try.de, password=wtA123r&@, phone=+091759875421
+12:39:05.023 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:05.073 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:05.115 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:05.157 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:05.196 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:05.246 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub-try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:05.283 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:05.323 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:05.368 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:05.411 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:05.457 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:05.578 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571545471.png
+12:39:05.662 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571545578.png
+12:39:05.662 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:05.662 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:05.705 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:05.755 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:05.755 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=Anna-Maria, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=wtA123r@, phone=41759875421
+12:39:05.803 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:05.840 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:05.882 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:05.917 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:05.955 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:06.113 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:06.142 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:06.172 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:06.209 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:06.245 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:06.289 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:06.400 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571546291.png
+12:39:06.515 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571546400.png
+12:39:06.515 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:06.515 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:06.584 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:06.631 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:06.631 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=Aggggggggggggggggggggggg, email=dr@tr.de, password=wtA123rKd@, phone=4917598754
+12:39:06.686 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:06.738 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:06.777 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:06.826 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:06.858 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:06.896 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:06.931 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:06.971 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:07.018 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:07.064 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:07.121 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:07.230 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571547124.png
+12:39:07.331 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571547230.png
+12:39:07.331 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:07.332 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:07.387 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:07.452 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:07.452 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=McAnn, email=drs@sub.try.de, password=wtA123r&@, phone=+49175987542108
+12:39:07.498 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:07.537 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:07.572 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:07.607 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:07.640 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:07.690 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:07.729 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:07.768 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:07.820 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:07.873 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:07.935 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:08.051 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571547939.png
+12:39:08.172 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571548051.png
+12:39:08.172 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:08.172 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:08.230 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:08.288 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:08.288 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=An, lastName=A'nn, email=Drs@Try.de, password=wtA123r@, phone=+49175987542108
+12:39:08.339 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:08.389 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:08.427 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:08.466 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:08.511 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:08.548 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:08.586 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:08.622 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:08.668 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:08.717 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:08.775 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:08.901 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571548781.png
+12:39:09.018 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571548902.png
+12:39:09.019 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:09.019 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:09.072 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:09.122 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:09.122 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=A'nn, email=drs@sub-try.de, password=wtA123r@, phone=4917598754
+12:39:09.172 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:09.215 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:09.256 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:09.294 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:09.330 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:09.378 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub-try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:09.413 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:09.455 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:09.501 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:09.542 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '4917598754' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:09.586 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:09.696 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571549588.png
+12:39:09.798 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571549697.png
+12:39:09.798 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:09.798 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:09.848 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:09.904 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:09.904 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=An, email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password=wtA123rKd@, phone=+49175987542108
+12:39:09.951 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:09.994 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:10.029 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:10.064 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'An' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:10.101 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:10.268 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:10.299 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:10.330 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:10.367 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:10.403 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:10.453 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:10.565 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571550455.png
+12:39:10.682 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571550566.png
+12:39:10.683 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:10.683 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:10.737 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:10.787 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:10.787 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=Anna-Maria, email=dr@tr.de, password=wtA123r&@, phone=+49175987542108
+12:39:10.833 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:10.879 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:10.915 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:10.959 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:10.997 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:11.041 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'dr@tr.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:11.077 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:11.110 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:11.151 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:11.197 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:11.257 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:11.367 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571551263.png
+12:39:11.482 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571551368.png
+12:39:11.482 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:11.482 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:11.532 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:11.588 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:11.588 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=Aggggggggggggggggggggggg, email=drs@sub.try.de, password=wtA123r@, phone=+49175987542108
+12:39:11.634 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:11.685 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:11.722 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:11.767 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Aggggggggggggggggggggggg' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:11.801 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:11.843 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs@sub.try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:11.876 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:11.906 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:11.955 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:12.003 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:12.066 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:12.186 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571552070.png
+12:39:12.300 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571552187.png
+12:39:12.300 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:12.301 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:12.356 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:12.411 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:12.412 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=McAnn, email=Drs@Try.de, password=n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t, phone=+49175987542108
+12:39:12.463 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:12.515 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:12.554 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:12.598 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:12.641 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:12.685 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Drs@Try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:12.729 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:12.817 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'n7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6tC7@lV1ySdT3GzB9iNj!Qp8FvWkLm&Yz2rP0Cn7$gT1@rE5qM2pYk#zV3bP9sKjL8Wm4uQw&FjX0UoZxH6t' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:12.860 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:12.904 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+49175987542108' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:12.954 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:13.068 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571552956.png
+12:39:13.185 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571553068.png
+12:39:13.186 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:13.186 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:13.241 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:13.291 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:13.292 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=A'nn, email=d.rs@try.de, password=wtA123rKd@, phone=+091759875421
+12:39:13.340 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:13.390 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:13.429 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:13.468 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'A'nn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:13.506 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:13.549 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'd.rs@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:13.595 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:13.635 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123rKd@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:13.684 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:13.732 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '+091759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:13.788 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:13.898 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571553790.png
+12:39:14.013 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571553898.png
+12:39:14.013 [main] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+12:39:14.013 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+12:39:14.056 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:14.103 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+12:39:14.104 [main] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Starting positive registration test with data: firstName=Anna-Maria, lastName=McAnn, email=drs12@try.de, password=wtA123r&@, phone=41759875421
+12:39:14.152 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]] is pressed
+12:39:14.214 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Anna-Maria' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: firstName-id]
+12:39:14.253 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]] is pressed
+12:39:14.287 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'McAnn' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: lastName-id]
+12:39:14.322 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]] is pressed
+12:39:14.365 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'drs12@try.de' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: email-id]
+12:39:14.400 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]] is pressed
+12:39:14.437 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'wtA123r&@' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: password-id]
+12:39:14.480 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]] is pressed
+12:39:14.522 [main] INFO  com.foodnow.core.BaseHelper -- Typed text '41759875421' into element: [[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> id: phoneNumber-id]
+12:39:14.578 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (03723f45a1ebf7bfbef937cac2eddfdc)] -> xpath: //button[text()='Registration']]] is pressed
+12:39:14.680 [main] ERROR f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571554580.png
+12:39:14.777 [main] ERROR foodnow.core.TestBase -- Test FAILED: registerPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733571554680.png
+12:39:14.780 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***
