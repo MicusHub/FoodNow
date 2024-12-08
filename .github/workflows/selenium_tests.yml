@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
+          distribution: 'adoptopenjdk'  # Добавлен параметр distribution
 
       # Установка и настройка WebDriver
       - name: Set up WebDriver
