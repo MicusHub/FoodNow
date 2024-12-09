@@ -12,6 +12,8 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 import java.lang.reflect.Method;
 import java.time.Duration;
 
@@ -30,15 +32,23 @@ public class RegisterNegativeTests extends TestBase {
     public void registerNegativeTest(String firstName, String lastName, String email, String password, String phone) {
         logger.info("[RegisterNegativeTests] Starting negative registration test with data: firstName={}, lastName={}, email={}, password={}, phone={}",
                 firstName, lastName, email, password, phone);
+
         new RegisterPage(app.driver)
                 .enterPersonalData(firstName, lastName, email, password, phone)
                 .clickSubmitRegister();
 
-        WebDriverWait wait = new WebDriverWait(app.driver, Duration.ofSeconds(3)); // Используем app.driver
-        boolean isRegistrationFailed = wait.until(ExpectedConditions.urlContains("#/registration"));
+        String expectedUrl = "https://oyster-app-hck73.ondigitalocean.app/#/registration";
+        String actualUrl = app.driver.getCurrentUrl();
 
-        Assert.assertTrue(isRegistrationFailed, "Registration unexpectedly succeeded with invalid data");
+        SoftAssert softAssert = new SoftAssert(); // Используем SoftAssert
+
+        softAssert.assertEquals(actualUrl, expectedUrl,
+                "[RegisterNegativeTests] Registration did not fail as expected. Expected URL: " + expectedUrl +
+                        ", Actual URL: " + actualUrl + ", Screenshot: " + app.getBaseHelper().takeScreenshot());
+
+        softAssert.assertAll(); // Проверяем все assertion в конце теста
     }
+
 
     @AfterMethod
     public void postCondition(Method method, ITestResult result) {

@@ -1,0 +1,33 @@
+16:04:44.860 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+16:04:45.037 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+16:04:45.047 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+16:04:46.636 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+16:04:46.647 [main] INFO  foodnow.core.TestBase -- Test loginPositiveTest started
+16:04:46.648 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+16:04:46.648 [main] INFO  foodnow.core.TestBase -- *** LOGIN POSITIVE TESTING IN PROGRESS ***
+16:04:46.713 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (f216b63737cd6961277d9739e6d93ca0)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:04:46.772 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+16:04:46.830 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (f216b63737cd6961277d9739e6d93ca0)] -> id: email-id]] is pressed
+16:04:46.992 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (f216b63737cd6961277d9739e6d93ca0)] -> id: password-id]] is pressed
+16:04:47.074 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (f216b63737cd6961277d9739e6d93ca0)] -> xpath: //button[text()='Login']]] is pressed
+16:04:47.624 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginPositiveTest
+16:04:47.658 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (f216b63737cd6961277d9739e6d93ca0)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:04:47.694 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space(text())='Log out']'] is pressed
+16:04:47.695 [main] INFO  foodnow.core.TestBase -- Test PASSED: loginPositiveTest
+16:04:47.696 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***
+16:04:47.709 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)

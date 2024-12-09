@@ -1,0 +1,138 @@
+16:08:01.826 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+16:08:02.020 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+16:08:02.027 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+16:08:03.428 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+16:08:03.443 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:03.444 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:03.683 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:03.762 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:03.763 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=A, email=drs@, password=          , phone=496753409
+16:08:03.825 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:03.948 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:04.008 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:04.083 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:04.159 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:04.259 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:04.267 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:04.267 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:04.268 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:04.269 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:04.321 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:04.371 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:04.372 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=Agggggggggggggggggggggggg, email=drs@try, password=sDftkvrdy, phone=+4967534096743275
+16:08:04.418 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:04.486 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:04.563 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:04.631 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:04.714 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:04.806 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:04.809 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:04.809 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:04.810 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:04.810 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:04.872 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:04.917 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:04.918 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=123, email=drs#@try.de, password=123456789, phone=+49175R7k86543
+16:08:04.958 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:05.044 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:05.109 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:05.179 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:05.254 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:05.342 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:05.354 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:05.354 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:05.355 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:05.355 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:05.405 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:05.451 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:05.451 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=@$%, email=drs@@try.de, password=@!#$%&*$, phone=+49175-510-79-54
+16:08:05.496 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:05.562 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:05.627 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:05.695 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:05.769 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:05.857 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:05.860 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:05.860 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:05.861 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:05.861 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:05.915 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:05.969 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:05.970 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=A nn, email=dr s@try.de, password=mhdebaQ8r&zY2mT!v6NwP#f0Lk8XpR9bVsQdJmA7Hk3Bz8QnLgPzT!o4RjFw1XbYhCmZ6tN9UqV3sKp7W@jZ4FhKmP0LjXtYtQ8r&zY2mT!v6NwP#f0Lk8XpR9bVsQdJm, phone=+49175$90%793
+16:08:06.010 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:06.078 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:06.149 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:06.222 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:06.336 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:06.419 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:06.422 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:06.422 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:06.423 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:06.423 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:06.482 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:06.532 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:06.532 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=        , email=drs#@try.d/e, password=wta123r@, phone=++491756897643
+16:08:06.571 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:06.637 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:06.703 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:06.776 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:06.851 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:06.938 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:06.940 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:06.941 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:06.941 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:06.941 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:07.001 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:07.047 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:07.047 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=A@1, email=drs@.de, password=WTA123R@, phone=1758971423
+16:08:07.088 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:07.154 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:07.217 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:07.293 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:07.368 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:07.455 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:07.457 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:07.458 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:07.458 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:07.459 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:07.508 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:07.555 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:07.555 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=阿格尼娅, email=          , password=wtA123rK, phone=12345789999999977
+16:08:07.603 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:07.666 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:07.740 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:07.807 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:07.886 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:07.966 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:07.969 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:07.970 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:07.970 [main] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+16:08:07.971 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+16:08:08.026 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+16:08:08.072 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+16:08:08.072 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName="alert('XSS')", email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password="Oreo'); DROP TABLE Products; --", phone=+001759876543
+16:08:08.117 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: firstName-id]] is pressed
+16:08:08.180 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: lastName-id]] is pressed
+16:08:08.253 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: email-id]] is pressed
+16:08:08.446 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: password-id]] is pressed
+16:08:08.519 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> id: phoneNumber-id]] is pressed
+16:08:08.605 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (1cd728f223348690474bf5312670a72a)] -> xpath: //button[text()='Registration']]] is pressed
+16:08:08.607 [main] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Test PASSED: registerNegativeTest
+16:08:08.608 [main] INFO  foodnow.core.TestBase -- Test PASSED: registerNegativeTest
+16:08:08.614 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***
+16:08:08.630 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
