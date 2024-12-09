@@ -22,7 +22,12 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
         with:
-          chrome-version: stable
+          chrome-version: stable #  Устанавливаем стабильную версию Chrome
+
+      - name: Setup ChromeDriver # Добавлено
+        uses: nanasess/setup-chromedriver@v1
+        with:
+          chromedriver-version: '114.0.5735.90' #  Или  подходящая  версия
 
       - name: Build with Gradle
         uses: gradle/gradle-build-action@v2
