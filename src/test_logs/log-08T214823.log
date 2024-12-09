@@ -1,0 +1,14 @@
+21:48:23.653 [Test worker] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+21:48:24.109 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+21:48:24.118 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+21:48:25.805 [Test worker] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+21:48:25.817 [Test worker] INFO  foodnow.core.TestBase -- Test addProductPositiveTest started
+21:48:25.828 [Test worker] INFO  foodnow.core.TestBase -- Test proceedToCheckout started
+21:48:25.832 [Test worker] INFO  foodnow.core.TestBase -- Test loginNegativeTestWithAssert started
+21:48:25.833 [Test worker] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+21:48:25.834 [Test worker] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd, password=Asd123Lkj@
+21:48:25.853 [Test worker] INFO  foodnow.core.TestBase -- Test formPayment started
+21:48:25.863 [Test worker] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+21:48:25.864 [Test worker] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+21:48:25.919 [Test worker] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+21:48:25.921 [Test worker] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page

@@ -22,7 +22,7 @@ public class TestBase {
 
     @BeforeSuite
     public void start() {
-        getLogger().info("*** TESTING IN PROGRESS ***"); // используем getter
+        getLogger().info("*** TESTING IN PROGRESS ***");
         app.init();
     }
 

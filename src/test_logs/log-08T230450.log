@@ -1,0 +1,25 @@
+23:04:50.334 [Test worker] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+23:04:50.782 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+23:04:50.790 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+23:04:52.146 [Test worker] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+23:04:52.160 [Test worker] INFO  foodnow.core.TestBase -- Test addProductPositiveTest started
+23:04:52.393 [Test worker] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+23:04:52.476 [Test worker] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+23:04:52.531 [Test worker] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> id: email-id]] is pressed
+23:04:52.656 [Test worker] INFO  com.foodnow.core.BaseHelper -- Typed text 'addproduct@gmail.com' into element: [[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> id: email-id]
+23:04:52.698 [Test worker] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> id: password-id]] is pressed
+23:04:52.745 [Test worker] INFO  com.foodnow.core.BaseHelper -- Typed text 'addproduct@gmail.com' into element: [[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> id: password-id]
+23:04:52.791 [Test worker] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> xpath: //button[text()='Login']]] is pressed
+23:04:52.840 [Test worker] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+23:04:52.876 [Test worker] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (67605256d668df42922cd8bcbf6661bd)] -> xpath: //button[contains(@class, 'MuiButtonBase-root') and text()='Meat']]] is pressed
+23:05:03.389 [Test worker] INFO  foodnow.core.TestBase -- Test is FAILED: [addProductPositiveTest], Screenscot: [/Users/a1234/QA_lessons/FoodNotNow_Selenium/src/test_screenshots/screen-1733695503263.png]
+23:05:03.391 [Test worker] INFO  foodnow.core.TestBase -- Test proceedToCheckout started
+23:05:03.397 [Test worker] INFO  foodnow.core.TestBase -- Test loginNegativeTestWithAssert started
+23:05:03.397 [Test worker] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+23:05:03.398 [Test worker] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd, password=Asd123Lkj@
+23:05:03.409 [Test worker] INFO  foodnow.core.TestBase -- Test formPayment started
+23:05:03.411 [Test worker] INFO  foodnow.core.TestBase -- Test registerNegativeTest started
+23:05:03.412 [Test worker] INFO  f.tests.RegisterNegativeTests -- [RegisterNegativeTests] Navigating to registration page
+23:05:03.422 [Test worker] INFO  foodnow.core.TestBase -- Test registerPositiveTest started
+23:05:03.423 [Test worker] INFO  f.tests.RegisterPositiveTests -- [RegisterPositiveTests] Navigating to registration page
+23:05:03.449 [Test worker] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

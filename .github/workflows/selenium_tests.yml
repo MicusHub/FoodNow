@@ -3,47 +3,40 @@ name: Selenium Tests
 on:
   push:
     branches:
-      - main  # Ветка, на которой выполняется workflow
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-22.04  # Явно указана версия Ubuntu
-
+    runs-on: ubuntu-latest
     steps:
-      # Checkout репозитория
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      # Установка JDK
+      - uses: actions/checkout@v3
       - name: Set up JDK 17
-        uses: actions/setup-java@v2
+        uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'  # Обновлено на поддерживаемый дистрибутив
-          java-version: '17'
+          distribution: 'temurin'
+          java-version: 17
 
-      # Установка и настройка WebDriver
-      - name: Set up WebDriver
-        run: |
-          wget -q https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
-          unzip chromedriver_linux64.zip
-          sudo mv chromedriver /usr/local/bin/
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
 
-      # Установка зависимостей с помощью Gradle
-      - name: Set up Gradle
-        uses: gradle/wrapper-validation-action@v1
+      - name: Print JAVA_HOME  # <--- Новый шаг здесь
+        run: echo $JAVA_HOME
 
       - name: Build with Gradle
-        run: ./gradlew build
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: build
 
-      # Запуск тестов
-      - name: Run tests
-        run: ./gradlew test
-        id: test
+      - name: Run tests with Gradle
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: test -Dorg.gradle.java.home=/path/to/jdk17 #  Замени на найденный путь
 
-      # Уведомление о результатах в Slack
       - name: Send Slack notification
-        if: always()  # Отправить уведомление независимо от того, прошли ли тесты
-        uses: slackapi/slack-github-action@v1.22.0
+        if: always()
+        uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: |
             {
