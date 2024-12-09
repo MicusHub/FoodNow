@@ -17,7 +17,7 @@ jobs:
           java-version: 11
 
       - name: Set JAVA_HOME for Java 11
-        run: echo "JAVA_HOME=$(find /usr/lib/jvm -name 'adoptopenjdk-11-*')" >> $GITHUB_ENV # динамически находим путь
+        run: echo "JAVA_HOME=$(find /usr/lib/jvm -name 'adoptopenjdk-11-*')" >> $GITHUB_ENV
 
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
