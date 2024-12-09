@@ -1,0 +1,19 @@
+03:21:27.407 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+03:21:27.875 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+03:21:27.885 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.87/chromedriver
+03:21:29.884 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+03:21:29.902 [main] INFO  foodnow.core.TestBase -- Test loginPositiveTest started
+03:21:29.903 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+03:21:29.904 [main] INFO  foodnow.core.TestBase -- *** LOGIN POSITIVE TESTING IN PROGRESS ***
+03:21:29.991 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> xpath: //a[@href='#/user-profile']]] is pressed
+03:21:30.116 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+03:21:30.177 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> id: email-id]] is pressed
+03:21:30.291 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'fgg@jhfsd.com' into element: [[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> id: email-id]
+03:21:30.326 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> id: password-id]] is pressed
+03:21:30.371 [main] INFO  com.foodnow.core.BaseHelper -- Typed text 'Asd123Lkj@' into element: [[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> id: password-id]
+03:21:30.422 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> xpath: //button[text()='Login']]] is pressed
+03:21:30.971 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginPositiveTest
+03:21:31.007 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (d1e39cb2012d4971b0d3b7750629f5e8)] -> xpath: //a[@href='#/user-profile']]] is pressed
+03:21:31.047 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space(text())='Log out']'] is pressed
+03:21:31.047 [main] INFO  foodnow.core.TestBase -- Test PASSED: loginPositiveTest
+03:21:31.049 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***
