@@ -1,0 +1,188 @@
+18:16:21.578 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+18:16:21.791 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.108 (resolved driver for Chrome 131)
+18:16:21.801 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.108/chromedriver
+18:16:23.224 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+18:16:23.242 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:23.283 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:23.322 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd, password=Asd123Lkj@
+18:16:23.398 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:23.499 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:23.553 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:23.675 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:23.716 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:23.764 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:23.803 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:23.814 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:23.819 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:23.820 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:23.821 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:23.822 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:23.823 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd., password=Asd123Lkj@
+18:16:23.856 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:23.890 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:23.930 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:23.978 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.016 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.061 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.095 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:24.098 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:24.099 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:24.100 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:24.101 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:24.101 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:24.102 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@@jhfsd.com, password=Asd123Lkj@
+18:16:24.147 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:24.184 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:24.226 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.274 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.310 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.357 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.393 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:24.395 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:24.396 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:24.397 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:24.398 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:24.399 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:24.400 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd .com, password=Asd123Lkj@
+18:16:24.433 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:24.473 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:24.511 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.559 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.599 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.640 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.677 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:24.681 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:24.682 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:24.683 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:24.685 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:24.685 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:24.686 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=asd123lkj
+18:16:24.718 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:24.761 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:24.799 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.848 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:24.885 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.927 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:24.968 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:24.970 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:24.971 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:24.972 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:24.972 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:24.973 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:24.974 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=ASD123LKJ@
+18:16:25.003 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:25.035 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:25.069 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.127 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.165 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:25.206 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:25.245 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:25.248 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:25.249 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:25.250 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:25.251 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:25.251 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:25.252 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=Asd 123Lkj@
+18:16:25.286 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:25.325 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:25.361 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.411 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.451 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:25.494 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:25.534 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:25.536 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:25.537 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:25.537 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:25.538 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:25.539 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:25.539 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=12345678
+18:16:25.569 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:25.603 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:25.636 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.690 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.728 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:25.769 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:25.799 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:25.801 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:25.802 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:25.803 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:25.804 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:25.804 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:25.805 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=Asd123L
+18:16:25.843 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:25.874 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:25.914 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:25.967 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.003 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.042 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.082 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:26.084 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:26.085 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:26.085 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:26.086 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:26.087 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:26.088 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=Asd123Lkj@extra
+18:16:26.117 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:26.163 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:26.200 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.250 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.287 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.332 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.362 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:26.364 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:26.365 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:26.365 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:26.366 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:26.367 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:26.368 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jh.com, password=Asd123Lkj@
+18:16:26.409 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:26.441 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:26.480 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.531 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.566 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.600 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.636 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:26.647 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:26.648 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:26.648 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:26.649 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:26.649 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:26.650 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fg@jhfsd.com, password=Asd123Lkj@
+18:16:26.680 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:26.727 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:26.764 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.811 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:26.848 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.890 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:26.928 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:26.930 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:26.931 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:26.932 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:26.932 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+18:16:26.933 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:26.933 [main] INFO  foodnow.core.TestBase -- [LoginTests] Starting negative login test with data: email=fgg@jhfsd.com, password=Asd!123Lkj@
+18:16:26.966 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:26.998 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:27.033 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:27.085 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:27.120 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:27.161 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:27.198 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:27.200 [main] INFO  foodnow.core.TestBase -- [LoginTests] Invalid login attempt successfuly prevented.
+18:16:27.201 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginNegativeTestWithAssert
+18:16:27.202 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginNegativeTestWithAssert]
+18:16:27.203 [main] INFO  foodnow.core.TestBase -- test loginPositiveTest started
+18:16:27.204 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:16:27.205 [main] INFO  foodnow.core.TestBase -- *** LOGIN POSITIVE TESTING IN PROGRESS ***
+18:16:27.233 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:27.265 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:16:27.299 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:27.352 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: email-id]] is pressed
+18:16:27.389 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:27.432 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> id: password-id]] is pressed
+18:16:27.463 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //button[text()='Login']]] is pressed
+18:16:28.005 [main] INFO  foodnow.core.TestBase -- [LoginTests] Test PASSED: loginPositiveTest
+18:16:28.044 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (982cba9a6525a8e5b3ab6fba6682f696)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:16:28.083 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space(text())='Log out']'] is pressed
+18:16:28.084 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginPositiveTest]
+18:16:28.086 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

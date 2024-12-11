@@ -1,0 +1,16 @@
+13:45:48.084 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+13:45:48.340 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.108 (resolved driver for Chrome 131)
+13:45:48.354 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.108/chromedriver
+13:45:49.658 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+13:45:49.673 [main] INFO  foodnow.core.TestBase -- test loginPositiveTest started
+13:45:49.674 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+13:45:49.675 [main] INFO  foodnow.core.TestBase -- *** LOGIN POSITIVE TESTING IN PROGRESS ***
+13:45:51.773 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (c2102241d35f2fdd6f3ad66405a878ed)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:45:53.856 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+13:45:53.923 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (c2102241d35f2fdd6f3ad66405a878ed)] -> xpath: //input[@id='email-id']]] is pressed
+13:45:54.084 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (c2102241d35f2fdd6f3ad66405a878ed)] -> xpath: //input[@id='password-id']]] is pressed
+13:45:56.210 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (c2102241d35f2fdd6f3ad66405a878ed)] -> xpath: //button[text()='Login']]] is pressed
+13:45:58.292 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (c2102241d35f2fdd6f3ad66405a878ed)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:46:00.369 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space(text())='Log out']'] is pressed
+13:46:00.495 [main] INFO  foodnow.core.TestBase -- Test is FAILED: [loginPositiveTest], Screenscot: [/Users/a1234/QA_lessons/FoodNOTNow_Selenium/src/test_screenshots/screen-1733921160370.png]
+13:46:00.499 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

@@ -1,0 +1,18 @@
+13:27:10.779 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+13:27:11.029 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.108 (resolved driver for Chrome 131)
+13:27:11.042 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.108/chromedriver
+13:27:12.319 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+13:27:12.335 [main] INFO  foodnow.core.TestBase -- test proceedToCheckout started
+13:27:14.420 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:27:21.518 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+13:27:21.599 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: //input[@id='email-id']]] is pressed
+13:27:21.750 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: //input[@id='password-id']]] is pressed
+13:27:23.864 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: //button[text()='Login']]] is pressed
+13:27:25.955 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+13:27:28.029 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: //button[contains(@class, 'MuiButtonBase-root') and text()='Meat']]] is pressed
+13:27:30.074 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: (//div[@class='MuiStack-root css-jj2ztu'])[2]]] is pressed
+13:27:32.158 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: (//img[@class='css-13s0wde'])[2]]] is pressed
+13:27:34.404 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: (//button[contains(@class,'MuiButton-root')])[2]]] is pressed
+13:27:36.477 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (11ec38f39788fa1eb3a82059b99f174e)] -> xpath: (//div[@class='css-1361dhl']//div)[2]]] is pressed
+13:27:36.479 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [proceedToCheckout]
+13:27:36.482 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***
