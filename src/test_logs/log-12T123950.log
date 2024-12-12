@@ -1,0 +1,14 @@
+12:39:50.424 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+12:39:50.632 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.108 (resolved driver for Chrome 131)
+12:39:50.644 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.108/chromedriver
+12:39:51.970 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+12:39:51.989 [main] INFO  foodnow.core.TestBase -- test proceedToCheckout started
+12:39:52.173 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:39:52.234 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+12:39:52.293 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> id: email-id]] is pressed
+12:39:52.408 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> id: email-id]] is pressed
+12:39:52.452 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> id: password-id]] is pressed
+12:39:52.494 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> id: password-id]] is pressed
+12:39:52.533 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> xpath: //button[text()='Login']]] is pressed
+12:39:52.610 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+12:39:52.663 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (b57a27bede75568b193d50c7f629ef8c)] -> xpath: //button[contains(@class, 'MuiButtonBase-root') and text()='Meat']]] is pressed

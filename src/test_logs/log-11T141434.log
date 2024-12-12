@@ -1,5 +1,0 @@
-14:14:35.198 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
-14:14:35.451 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.108 (resolved driver for Chrome 131)
-14:14:35.465 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.108/chromedriver
-14:14:36.837 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
-14:14:36.856 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

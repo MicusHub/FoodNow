@@ -1,0 +1,17 @@
+10:43:31.130 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+10:43:31.625 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.108 (resolved driver for Chrome 131)
+10:43:31.632 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.108/chromedriver
+10:43:33.076 [main] INFO  c.foodnow.core.ApplicationManager -- Application started at: https://oyster-app-hck73.ondigitalocean.app/#/
+10:43:33.094 [main] INFO  foodnow.core.TestBase -- test addProductPositiveTest started
+10:43:33.127 [main] INFO  foodnow.core.TestBase -- *** addProductPositiveTest TEST STARTED ***
+10:43:33.344 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> xpath: //a[@href='#/user-profile']]] is pressed
+10:43:33.385 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+10:43:33.447 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> id: email-id]] is pressed
+10:43:33.568 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> id: email-id]] is pressed
+10:43:33.607 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> id: password-id]] is pressed
+10:43:33.650 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> id: password-id]] is pressed
+10:43:33.698 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> xpath: //button[text()='Login']]] is pressed
+10:43:33.794 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (3e4fcf9d2f44ab9955bcc96a360ca4ec)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+10:43:54.597 [main] ERROR foodnow.core.TestBase -- [AddProductTests] Test FAILED: addProductPositiveTest, Screenshot: /Users/a1234/QA_lessons/FoodNow_Selenium/src/test_screenshots/screen-1733996634465.png
+10:43:54.692 [main] INFO  foodnow.core.TestBase -- Test is FAILED: [addProductPositiveTest], Screenscot: [/Users/a1234/QA_lessons/FoodNow_Selenium/src/test_screenshots/screen-1733996634598.png]
+10:43:54.697 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

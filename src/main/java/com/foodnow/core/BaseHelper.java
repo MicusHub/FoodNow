@@ -33,19 +33,21 @@ public class BaseHelper {
             logger.info("[" + element + "] is pressed");
         } catch (Exception e) {
             logger.error("[" + element + "] is not pressed", e);
+            throw e; // <-- Добавляем выброс исключения
         }
     }
 
     protected void type(WebElement element, String text) {
         try {
             if (text != null) {
-                click(element);
+                click(element); // Этот click тоже может выбросить исключение
                 element.clear();
                 element.sendKeys(text);
                 logger.info("[" + element + "] is pressed");
             }
         } catch (Exception e) {
             logger.error("[" + element + "] is not pressed", e);
+            throw e; // <--  И здесь тоже
         }
     }
 

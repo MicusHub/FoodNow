@@ -13,18 +13,12 @@ public class CartTests extends TestBase {
     public void preCondition() {
         new LoginPage(app.driver).loginExistedUser();
         new CartPage(app.driver).addProductToCart();
-        //.verifyProductIsAdded();
     }
-
-
-
 
     @Test
     public void proceedToCheckout() {
         checkoutToCart();
     }
-
-
     private void checkoutToCart() {
         new CartPage(app.driver)
                 .clickIconCart()
