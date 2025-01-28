@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.time.Duration;
+
 
 public class ApplicationManager {
 
@@ -17,6 +19,7 @@ public class ApplicationManager {
     public void init() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
         driver.manage().window().maximize();
         baseHelper = new BaseHelper(driver);
         String appUrl = "https://oyster-app-hck73.ondigitalocean.app/#/";

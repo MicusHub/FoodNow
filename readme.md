@@ -1,82 +1,102 @@
-# FoodNow: Проект Тестирования
+# 🍔 FoodNow: Testing Project
 
-## Обзор Проекта
+## Project Overview
 
-FoodNow – это веб-приложение для онлайн-заказа еды. Проект нацелен на всестороннее тестирование приложения FoodNow для обеспечения его качества и надежности. Тестирование началось с мануального тестирования функциональности регистрации с использованием различных техник Тест Дизайна, в первую очередь таких как и Тестирование граничных значений (Boundary Value) и техника разделения на эквивалентные классы (Equivalence Partitioning). Проект автоматизации тестирования использует Selenium, Cucumber, Postman, Newman, Testlink, REST Assured и Jenkins для различных видов тестирования, включая UI, API и интеграционное тестирование. В проекте реализовано логирование и создание скриншотов для удобства отслеживания и документирования багов.
+FoodNow is a web application for online food ordering. The project aims to comprehensively test the FoodNow application to ensure its quality and reliability. The testing process began with manual testing of the registration functionality using various Test Design techniques, primarily Boundary Value Testing and Equivalence Partitioning techniques. The test automation project utilizes Selenium, Cucumber, Postman, Newman, TestLink, REST Assured, and Jenkins for various types of testing, including UI, API, and integration testing. Logging and screenshot capture are implemented in the project to facilitate tracking and documenting bugs.
 
-## Ключевые Функции
+## ✨Key Features
 
-Приложение FoodNow предлагает следующие функции:
+The FoodNow application offers the following features:
 
-* Регистрация и авторизация пользователей
-* Просмотр и сортировка продуктов
-* Добавление продуктов в корзину
-* Оформление заказа
-* Онлайн-оплата
+* 📝 User registration and authorization
+* 🛍️ Viewing and sorting products
+* 🛒 Adding products to the cart
+* 📦 Placing an order
+* 💳 Online payment
 
-## Используемые Технологии
+## 🛠️ Technologies Used
 
-* **Тестирование:** Selenium 4.25.0, Cucumber, Postman, Newman, TestLink, REST Assured, Jenkins, Jira
-* **Язык программирования:** Java 17
-* **Сборка:** Gradle
-* **Логирование:** Logback Classic 1.5.9
-* **Прочее:** WebDriverManager 5.9.2
-
-
-## Структура Проекта
-
-Проект включает логирование и создание скриншотов для облегчения отслеживания багов.  Ключевые аспекты структуры проекта:
-
-* **`/src/main/java/com/foodnow/pages`**: Содержит Page Objects для взаимодействия с веб-приложением. Примеры:
-  * `RegisterPage`:  Содержит метод `enterPersonalData()` для всестороннего тестирования полей регистрации.
-  * `LoginPage`: Содержит метод `loginExistedUser()` для упрощенного тестирования входа в систему.
-  * `AddProductPage`:  Предоставляет методы, такие как `clickFoodCategory()` и `clickAddSteakToCart()` для взаимодействия с категориями продуктов и добавления товаров в корзину.
-  * `CartPage`:  Предлагает метод `addProductToCart()` для добавления продукта в корзину.
-* **`/src/test/java/foodnow/tests`**: Содержит соответствующие тестовые классы.
+* **Testing:** Selenium 4.25.0, Postman, Newman, TestLink, REST Assured, Jenkins, Jira, Allure
+* **Programming Language:** Java 17
+* **Build Tool:** Gradle
+* **Logging:** Logback Classic 1.5.9
+* **Others:** WebDriverManager 5.9.2
 
 
-## Установка и Настройка
+## 📂 Project Structure
 
-### Необходимые компоненты
-* **Java JDK (17 или выше):** Загрузите с [Oracle](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) или используйте дистрибутив, например [Adoptium](https://adoptium.net/).
-* **Gradle:**  Загрузите с [Gradle](https://gradle.org/install/)  или используйте менеджер пакетов (например, Homebrew, SDKMAN). Если проект включает Gradle Wrapper (`gradlew` и `gradlew.bat`),  вы можете использовать `./gradlew` напрямую.
-* **Git:** Загрузите и установите с [Git](https://git-scm.com/downloads).
+The project includes logging and screenshot capture to facilitate bug tracking. Key aspects of the project structure:
 
+* **`/src/main/java/com/foodnow/pages`**: Contains Page Objects for interacting with the web application. Examples:
+  * `RegisterPage`: Contains the method `enterPersonalData()` for comprehensive testing of registration fields.
+  * `LoginPage`: Contains the method `loginExistedUser()` for simplified login testing.
+  * `AddProductPage`:  Provides methods such as `clickFoodCategory()` и `clickAddSteakToCart()` for interacting with product categories and adding items to the cart.
+  * `CartPage`:  Offers the method `addProductToCart()` or adding products to the cart.
+* **`/src/test/java/foodnow/tests`**: Contains corresponding test classes.
 
-### Шаги
+## ⚙️ Installation and Setup
 
-1. Клонируйте репозиторий: `git clone https://github.com/MicusHub/FoodNow.git`
-2. Перейдите в директорию проекта: `cd FoodNow`
-3. Соберите проект и установите зависимости: `./gradlew build` (или `gradlew build` в Windows)
-4. Запустите тесты: `./gradlew test` (или `gradlew test` в Windows)
+### 🔧 Required Components
 
+* **Java JDK** (17 or higher): Download from [Oracle](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or use a distribution such as [Adoptium](https://adoptium.net/).
+* **Gradle:**  Download from [Gradle](https://gradle.org/install/) or use a package manager (e.g., Homebrew, SDKMAN). If the project includes the Gradle Wrapper (`gradlew` and `gradlew.bat`), you can use `./gradlew` directly.
+* **Git:** Download and install from [Git](https://git-scm.com/downloads).
 
-## Примеры Использования
+### 📥 Steps
 
-Пример входа существующего пользователя:
-<br/>public LoginPage loginExistedUser() { <br/>
-clickIconAuthorization(); <br/>
-clickLoginButton(); <br/>
-enterPersonalData("login" , "password"); <br/>
-clickSubmitLogin(); <br/>
-return this; <br/>
-}
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/MicusHub/FoodNow.git
+2. Navigate to the project directory: 
+   ```sh
+   cd FoodNow
+3. Build the project and install dependencies: `./gradlew build` (or `gradlew build` on Windows)
+4. Ensure the build.gradle file includes all required dependencies:
+   ```gradle
+   dependencies {
+   implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
+   implementation group: 'org.testng', name: 'testng', version: '7.10.2'
+   implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.9.2'
+   implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.5.9'
+   }
+5.  Run the tests: `./gradlew test` (or `gradlew test` on Windows)
 
-## Известные Проблемы и Ограничения
+## 🖼️ Usage Examples
 
-* Изображения не отображаются корректно после нагрузочного тестирования, что
-  потенциально может повлиять на некоторые тесты.
+Organizing screenshots to identify bugs:
+   ```java
+   public String takeScreenshot() {
+   File screenshot = new File("src/test_screenshots/screen-" + System.currentTimeMillis() + ".png");
+   try {
+   File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+   Files.copy(tmp.toPath(), screenshot.toPath());
+   } catch (IOException e) {
+   logger.error("Failed to save screenshot", e);
+   throw new RuntimeException(e);
+   }
+   return screenshot.getAbsolutePath();
+   }
+   ```
+## 🛑 Known Issues and Limitations
 
-## Документация
+* Images do not display correctly after load testing, which may potentially affect some tests.
+
+## 🐞 Example of a Bug Report in Jira
+[![Example of a Bug Report in Jira](./screenshots/F21DFEF5.PNG)](./screenshots/F21DFEF5.PNG)
+
+## 📄 Documentation
 
 * [Test Plan](https://docs.google.com/spreadsheets/d/1fhztzIxPEVHzE2q1KZDFKaFSvn-vgOVX/edit?usp=sharing&ouid=103276708346142431414&rtpof=true&sd=true)
-* [User Stories](https://docs.google.com/spreadsheets/d/10Duvod2kNCm1BFMMsb8_6c7LdBQ680TrDdJd20p5FXc/edit#gid=0)
-* [TestLink](https://testlink.ait-tr.de/index.php?caller=login&viewer=)
-* [Jira Project](https://ait-learn.atlassian.net/jira/core/projects/Q3F/board)
-* [Database Schema](https://drawsql.app/teams/vera-team/diagrams/order-food)
-* [QA Project (Cucumber)](https://github.com/MicusHub?tab=repositories)
-* [QA Project (Selenium)](https://github.com/MicusHub?tab=repositories)
-* [Postman Test Run](https://drive.google.com/file/d/1V8IPwh7pYfbmQC2rEsfBjDsKVhlLnyFo/view?usp=sharing)
+* [User Stories](https://docs.google.com/spreadsheets/d/1PDMytQXr9YjGRr7cQNpCL1IRamwxGZwR/edit?usp=sharing&ouid=103276708346142431414&rtpof=true&sd=true)
 * [Use Cases](https://docs.google.com/document/d/1aBOmoolJJWEyk12gwnZOpHPtJZvVPdxo/edit?usp=sharing&ouid=103276708346142431414&rtpof=true&sd=true)
+* [Database Schema](https://drawsql.app/teams/vera-team/diagrams/order-food)
+* [TestLink](./screenshots/testLink.png)
+* [Postman Test Run](https://drive.google.com/file/d/1V8IPwh7pYfbmQC2rEsfBjDsKVhlLnyFo/view?usp=sharing)
+* [Example Bug reports](./bugs.md)
+* [REST Assured](./screenshots/wn63-89-1.png)
+
+## 📜 License
+
+This project is licensed under the MIT License — see [LICENSE](https://opensource.org/license/mit) for details.
 
 <!-- end list -->

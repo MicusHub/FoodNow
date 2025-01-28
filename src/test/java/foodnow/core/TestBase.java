@@ -22,7 +22,7 @@ public class TestBase {
 
     @BeforeSuite //Suite - запускается несколько раз
     public void start() {
-        logger.info("*** TESTING IN PROGRESS ***");
+        logger.info("*** TESTING init() IN PROGRESS ***");
         app.init();
     }
 

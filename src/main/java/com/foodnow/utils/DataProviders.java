@@ -1,6 +1,6 @@
 package com.foodnow.utils;
 
-import org.testng.annotations.DataProvider;
+import  org.testng.annotations.DataProvider;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

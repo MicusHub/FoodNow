@@ -37,9 +37,5 @@ public class OderDetailsTests extends TestBase {
         } else {
             logger.error("[OderDetailsTests] Test FAILED: " + method.getName() + ", Screenshot: " + app.getBaseHelper().takeScreenshot());
         }
-
-        if (result.isSuccess() && method.getName().equals("oderDetailsTests")) {
-            new LoginPage(app.driver).logout();
-        }
     }
 }

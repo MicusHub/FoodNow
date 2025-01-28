@@ -28,13 +28,10 @@ public class BaseHelper {
     }
 
     protected void click(WebElement element) {
-        try {
+        pause(100);
+        scrollToElement(element);
             element.click();
             logger.info("[" + element + "] is pressed");
-        } catch (Exception e) {
-            logger.error("[" + element + "] is not pressed", e);
-            throw e; // <-- Добавляем выброс исключения
-        }
     }
 
     protected void type(WebElement element, String text) {
@@ -47,7 +44,7 @@ public class BaseHelper {
             }
         } catch (Exception e) {
             logger.error("[" + element + "] is not pressed", e);
-            throw e; // <--  И здесь тоже
+            throw e;
         }
     }
 
@@ -64,7 +61,7 @@ public class BaseHelper {
     }
 
     protected boolean isElementPresent(By locator) {
-        // logger.info("Проверка есть ли элемент [" + locator + "] на странице");
+        logger.info("Проверка есть ли элемент [" + locator + "] на странице");
         return driver.findElements(locator).size() > 0;
     }
 
@@ -101,7 +98,12 @@ public class BaseHelper {
             logger.error("Failed to save screenshot", e);
             throw new RuntimeException(e);
         }
-        //logger.info("Screenshot saved to path: ["+ screenshotPath + "]");
         return screenshot.getAbsolutePath();
+    }
+
+    public void scrollToElement(WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 }

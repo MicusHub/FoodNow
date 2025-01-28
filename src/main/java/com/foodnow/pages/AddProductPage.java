@@ -25,7 +25,8 @@ public class AddProductPage extends BaseHelper {
     WebElement mainProductPage;
 
     public AddProductPage clickFoodCategory() {
-        wait.until(ExpectedConditions.elementToBeClickable(mainProductPage));// явное ожидание
+        pause(100);
+        //wait.until(ExpectedConditions.elementToBeClickable(mainProductPage));// явное ожидание
         click(mainProductPage);
         return this;
     }
