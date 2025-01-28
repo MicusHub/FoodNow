@@ -1,9 +1,9 @@
 name: 🐞 Java CI with Gradle [UBUNTU] Selenium Tests
 on:
   push:
-    branches: [ '*' ]
+    branches: [ main , feature/* ]
   pull_request:
-    branches: [ '*' ]
+    branches: [ main , feature/* ]
   workflow_dispatch:
     inputs:
       deployment_target:
