@@ -99,3 +99,4 @@ Organizing screenshots to identify bugs:
 
 This project is licensed under the MIT License — see [LICENSE](https://opensource.org/license/mit) for details.
 
+<!-- end list -->
